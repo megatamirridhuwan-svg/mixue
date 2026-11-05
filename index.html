@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MIXUE — Ice Cream & Tea | Happiness Starts With MIXUE</title>
+  <meta name="description" content="MIXUE Ice Cream & Tea — enjoy every scoop, sip every moment. Fresh milk tea, premium ice cream and fruit drinks." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍦</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="MIXUE home">
+        <svg class="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="20" r="14" fill="#E60012"/>
+          <path d="M17 30 L24 46 L31 30 Z" fill="#83F03D"/>
+          <circle cx="19" cy="17" r="2.5" fill="#fff"/>
+          <circle cx="29" cy="17" r="2.5" fill="#fff"/>
+          <path d="M21 24 q3 3 6 0" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">MIXUE</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#promotions">Promotions</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="cart-btn" id="cartBtn" aria-label="Open shopping cart">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+        </svg>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="hero-tag">🍦 Fresh · ☕ Tea · 🍓 Fruit</span>
+          <h1>HAPPINESS<br /><span>STARTS WITH</span> MIXUE</h1>
+          <p class="hero-desc">Enjoy Every Scoop, Sip Every Moment.</p>
+          <p class="hero-sub">Handcrafted milk tea, premium ice cream and refreshing fruit drinks — made fresh every day with love.</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="#menu" class="btn btn-outline">Order Now</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>500+</strong><span>Flavors & Drinks</span></div>
+            <div><strong>1000+</strong><span>Stores Worldwide</span></div>
+            <div><strong>4.9★</strong><span>Customer Rating</span></div>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <div class="hero-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1200&q=80" alt="Delicious MIXUE ice cream cones" loading="eager" />
+            <div class="hero-float-card hero-float-1">
+              <strong>New!</strong>
+              <span>Brown Sugar Boba</span>
+            </div>
+            <div class="hero-float-card hero-float-2">
+              <strong>50% OFF</strong>
+              <span>This Week Only</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Our Story</span>
+          <h2>About MIXUE</h2>
+          <p>From a small shop to a global phenomenon — happiness in every cup.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-media reveal">
+            <div class="about-img-main">
+              <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=900&q=80" alt="MIXUE milk tea preparation" loading="lazy" />
+            </div>
+            <div class="about-img-small">
+              <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80" alt="MIXUE ice cream" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="about-content reveal">
+            <h3>A Taste of Joy, Brewed with Passion</h3>
+            <p>MIXUE began with a simple belief — that everyone deserves a little happiness in a cup. What started as a modest tea shop has grown into one of the world's most loved ice cream and tea brands.</p>
+            <p>We combine premium ingredients, time-honored recipes and a playful spirit to create drinks and desserts that brighten your day, one sip and one scoop at a time.</p>
+
+            <div class="about-values">
+              <div class="value-card">
+                <div class="value-icon">🎯</div>
+                <h4>Our Mission</h4>
+                <p>To spread joy and warmth through affordable, delicious treats that make every moment sweeter.</p>
+              </div>
+              <div class="value-card">
+                <div class="value-icon">🔭</div>
+                <h4>Our Vision</h4>
+                <p>To be the world's favorite destination for happiness — one MIXUE at every corner of the globe.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MENU ===== -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Delicious Choices</span>
+          <h2>Our Menu</h2>
+          <p>Handcrafted fresh daily — pick your happiness.</p>
+        </div>
+
+        <div class="menu-tabs reveal" id="menuTabs" role="tablist" aria-label="Menu categories">
+          <button class="tab active" data-cat="all" role="tab">All</button>
+          <button class="tab" data-cat="icecream" role="tab">Ice Cream</button>
+          <button class="tab" data-cat="milktea" role="tab">Milk Tea</button>
+          <button class="tab" data-cat="freshtea" role="tab">Fresh Tea</button>
+          <button class="tab" data-cat="fruit" role="tab">Fruit Drinks</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== PROMOTIONS ===== -->
+    <section class="section promotions" id="promotions">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Deals & Offers</span>
+          <h2>Promotions</h2>
+          <p>Limited-time treats at unbeatable prices.</p>
+        </div>
+
+        <div class="promo-grid">
+          <article class="promo-card promo-1 reveal">
+            <div class="promo-content">
+              <span class="promo-label">Limited Time</span>
+              <h3>Buy 2 Get 1 FREE</h3>
+              <p>On all selected Milk Teas — because happiness tastes better in threes.</p>
+              <a href="#menu" class="btn btn-light">Claim Offer</a>
+            </div>
+            <div class="promo-img">
+              <img src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=800&q=80" alt="Milk tea promotion" loading="lazy" />
+            </div>
+          </article>
+
+          <article class="promo-card promo-2 reveal">
+            <div class="promo-content">
+              <span class="promo-label">Weekend Special</span>
+              <h3>20% OFF Ice Cream Combos</h3>
+              <p>Scoop more, save more. Double scoops and sundaes included.</p>
+              <a href="#menu" class="btn btn-light">Claim Offer</a>
+            </div>
+            <div class="promo-img">
+              <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=800&q=80" alt="Ice cream promotion" loading="lazy" />
+            </div>
+          </article>
+
+          <article class="promo-card promo-3 reveal">
+            <div class="promo-content">
+              <span class="promo-label">Members Only</span>
+              <h3>Free Topping Fridays</h3>
+              <p>Every Friday, add free pearls or jelly to any drink in store.</p>
+              <a href="#locations" class="btn btn-light">Find a Store</a>
+            </div>
+            <div class="promo-img">
+              <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&q=80" alt="Fruit drink promotion" loading="lazy" />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOCATIONS ===== -->
+    <section class="section locations" id="locations">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Find Us</span>
+          <h2>Store Locations</h2>
+          <p>Your nearest scoop of happiness is closer than you think.</p>
+        </div>
+
+        <div class="store-grid">
+          <article class="store-card reveal">
+            <div class="store-icon">🏙️</div>
+            <h3>Downtown Flagship</h3>
+            <p class="store-addr">12 Central Avenue, City Center</p>
+            <p class="store-hours">🕐 Open daily: 10:00 AM – 10:00 PM</p>
+            <a class="store-link" href="https://maps.google.com/?q=MIXUE+Downtown" target="_blank" rel="noopener">Get Directions →</a>
+          </article>
+          <article class="store-card reveal">
+            <div class="store-icon">🌳</div>
+            <h3>Sunway Branch</h3>
+            <p class="store-addr">88 Garden Boulevard, Subang</p>
+            <p class="store-hours">🕐 Open daily: 9:30 AM – 10:30 PM</p>
+            <a class="store-link" href="https://maps.google.com/?q=MIXUE+Sunway" target="_blank" rel="noopener">Get Directions →</a>
+          </article>
+          <article class="store-card reveal">
+            <div class="store-icon">🎓</div>
+            <h3>Bangsar Branch</h3>
+            <p class="store-addr">5 Scholar Lane, Near University</p>
+            <p class="store-hours">🕐 Open daily: 10:00 AM – 11:00 PM</p>
+            <a class="store-link" href="https://maps.google.com/?q=MIXUE+Bangsar" target="_blank" rel="noopener">Get Directions →</a>
+          </article>
+          <article class="store-card reveal">
+            <div class="store-icon">📱</div>
+            <h3>Order Online</h3>
+            <p class="store-addr">Delivery & takeaway available</p>
+            <p class="store-hours">🕐 Open daily: 8:00 AM – 12:00 AM</p>
+            <a class="store-link" href="#menu">Order Now →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Contact Us</h2>
+          <p>Questions, feedback or catering requests? We'd love to hear from you.</p>
+          <ul class="contact-list">
+            <li>📍 12 Central Avenue, City Center</li>
+            <li>📞 +60 3-1234 5678</li>
+            <li>✉️ hello@mixue.example.com</li>
+          </ul>
+          <div class="contact-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="TikTok">♪</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-light">
+          <svg class="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="20" r="14" fill="#E60012"/>
+            <path d="M17 30 L24 46 L31 30 Z" fill="#83F03D"/>
+            <circle cx="19" cy="17" r="2.5" fill="#fff"/>
+            <circle cx="29" cy="17" r="2.5" fill="#fff"/>
+            <path d="M21 24 q3 3 6 0" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+          <span class="logo-text">MIXUE</span>
+        </a>
+        <p>Happiness starts with MIXUE. Ice cream, milk tea & fruit drinks made fresh every day.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#promotions">Promotions</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#locations">Store Locations</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#promotions">Offers</a>
+        <a href="#menu">Order Online</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Get the latest deals and new flavors first.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your email" required aria-label="Email for newsletter" />
+          <button type="submit" aria-label="Subscribe">→</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 MIXUE Ice Cream & Tea. All rights reserved. | Happiness starts with MIXUE.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== CART DRAWER ===== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header">
+      <h3>Your Cart <span id="cartCount">(0)</span></h3>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-body" id="cartBody"></div>
+    <div class="cart-footer" id="cartFooter">
+      <div class="cart-total-row">
+        <span>Subtotal</span>
+        <strong id="cartTotal">$0.00</strong>
+      </div>
+      <p class="cart-note">Delivery & taxes calculated at checkout.</p>
+      <button class="btn btn-primary btn-full" id="checkoutBtn">Checkout</button>
+    </div>
+  </aside>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
